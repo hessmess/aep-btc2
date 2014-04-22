@@ -30,7 +30,7 @@ public class Mailgun {
         mail_text = text;
     }
 
-    public String sendmail() throws Exception {
+    public boolean sendmail() throws Exception {
 
         //  Perform Trade
 
@@ -50,7 +50,7 @@ public class Mailgun {
         con.setRequestProperty("Accept-Language", "en-US,en;q=0.5");
         con.setRequestProperty("Authorization", "Basic " + encoding);
 
-        String urlParameters = "from=Hot Rachel <rachel@schloss-nymphenburg.com>" + "&to=" + mail_to + "&subject=" + mail_subject + "&text=" + mail_text;
+        String urlParameters = "from=Heidi <Heidi@hans.com>" + "&to=" + mail_to + "&subject=" + mail_subject + "&text=" + mail_text;
 
         // Send post request
         con.setDoOutput(true);
@@ -77,7 +77,7 @@ public class Mailgun {
         System.out.println("Sent out Mail: " + response.toString());
 
 
-        return response.toString();
+        return response.toString().contains("Queued. Thank you.");
 
     }
 

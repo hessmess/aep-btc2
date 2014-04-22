@@ -64,10 +64,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BitcoinCentralTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BitcoinCentralTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/javamusic/BitcoinCentralTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="5" selection-start="604" selection-end="604" vertical-scroll-proportion="0.71428573" vertical-offset="0" max-vertical-offset="615">
+            <state line="18" column="0" selection-start="411" selection-end="604" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,14 +98,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mailgun.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Mailgun.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/javamusic/Mailgun.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
+            <state line="54" column="28" selection-start="1468" selection-end="1468" vertical-scroll-proportion="1.7532468" vertical-offset="0" max-vertical-offset="1350">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#527#528#0" expanded="true" />
                 <element signature="e#559#560#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MailgunTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/javamusic/MailgunTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="0" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,10 +143,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/javamusic/Rectangle1Test.java" />
         <option value="$PROJECT_DIR$/src/test/javamusic/BitcoinCentralTest.java" />
-        <option value="$PROJECT_DIR$/src/main/javamusic/Mailgun.java" />
         <option value="$PROJECT_DIR$/src/main/javamusic/Base64.java" />
         <option value="$PROJECT_DIR$/src/main/javamusic/BitcoinCentral.java" />
         <option value="$PROJECT_DIR$/src/main/javamusic/JSONObject.java" />
+        <option value="$PROJECT_DIR$/src/test/javamusic/MailgunTest.java" />
+        <option value="$PROJECT_DIR$/src/main/javamusic/Mailgun.java" />
       </list>
     </option>
   </component>
@@ -245,7 +257,7 @@
       <recent name="javamusic" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BitcoinCentralTest">
+  <component name="RunManager" selected="JUnit.MailgunTest">
     <configuration default="false" name="Rectangle1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aep-btc2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -296,6 +308,28 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="javamusic" />
       <option name="MAIN_CLASS_NAME" value="javamusic.BitcoinCentralTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MailgunTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aep-btc2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="javamusic" />
+      <option name="MAIN_CLASS_NAME" value="javamusic.MailgunTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -439,16 +473,18 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.Rectangle1Test" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.RectangleTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.BitcoinCentralTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MailgunTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BitcoinCentralTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RectangleTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Rectangle1Test" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MailgunTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BitcoinCentralTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RectangleTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Rectangle1Test" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -538,13 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/javamusic/Base64.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="2235" max-vertical-offset="31110">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/javamusic/BitcoinCentral.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
@@ -564,22 +593,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/javamusic/Mailgun.java">
+    <entry file="file://$PROJECT_DIR$/src/test/javamusic/BitcoinCentralTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
+        <state line="18" column="0" selection-start="411" selection-end="604" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/javamusic/BitcoinCentralTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/javamusic/Base64.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="5" selection-start="604" selection-end="604" vertical-scroll-proportion="0.71428573" vertical-offset="0" max-vertical-offset="615">
+        <state line="4" column="3" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="2235" max-vertical-offset="31110">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/javamusic/MailgunTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/javamusic/Mailgun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="28" selection-start="1468" selection-end="1468" vertical-scroll-proportion="1.7532468" vertical-offset="0" max-vertical-offset="1350">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
           </folding>
         </state>
       </provider>
