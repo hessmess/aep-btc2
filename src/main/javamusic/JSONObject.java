@@ -21,6 +21,7 @@ public class JSONObject {
         return sb.toString();
     }
 
+    /*
     public static JSONObject readJsonFromUrl(String url) throws IOException, JSONException {
         Base64.InputStream is = new URL(url).openStream();
         try {
@@ -31,5 +32,6 @@ public class JSONObject {
         } finally {
             is.close();
         }
-    }
+    } */
+
 }
