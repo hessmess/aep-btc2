@@ -12,7 +12,7 @@ public class MailgunTest {
 
     @Test
     public void shouldCreateAndSendMail() throws Exception {
-        Mailgun mailgun = new Mailgun("jonas.im.internet@gmail.com", "Testmail Mailgun", "If you received this mail, everything's alright!");
+        Mailgun mailgun = new Mailgun("jonas.hess@web.de", "Testmail Mailgun", "If you received this mail, everything's alright!");
         assertTrue(mailgun.sendmail());
     }
 
