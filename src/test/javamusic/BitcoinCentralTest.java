@@ -2,6 +2,8 @@ package javamusic;
 
 import org.junit.Test;
 
+import java.io.IOException;
+
 import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertTrue;
 
@@ -11,7 +13,7 @@ import static junit.framework.Assert.assertTrue;
 public class BitcoinCentralTest {
 
     @Test
-    public void shouldSuccessfullyRetrieveOrderbook(){
+    public void shouldSuccessfullyRetrieveOrderbook() throws IOException {
         BitcoinCentral bitcoinCentral = new BitcoinCentral();
         assertTrue(bitcoinCentral.refresh_orderbook());
     }

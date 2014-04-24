@@ -5,8 +5,8 @@ import java.util.List;
 /**
  * Created by jhess on 23.04.14.
  */
-public class xchangeContainer {
-    public void xchangeContainer(List<Double> bids, List<Double> asks){
+public class xChangeContainer {
+    public void xChangeContainer(List<Double> bids, List<Double> asks){
 
     }
 }
