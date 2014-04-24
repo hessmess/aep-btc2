@@ -64,10 +64,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BitcoinCentral.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BitcoinCentral.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/javamusic/BitcoinCentral.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="558" selection-end="558" vertical-scroll-proportion="0.71428573" vertical-offset="0" max-vertical-offset="1230">
+            <state line="20" column="0" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1230">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1858#1859#0" expanded="true" />
@@ -77,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="xChangeContainer.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="xChangeContainer.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/javamusic/xChangeContainer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="13" column="2" selection-start="223" selection-end="223" vertical-scroll-proportion="0.42207792" vertical-offset="0" max-vertical-offset="462">
               <folding />
             </state>
           </provider>
@@ -109,7 +109,7 @@
       <file leaf-file-name="BitcoinCentralTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/javamusic/BitcoinCentralTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="53" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+            <state line="19" column="0" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,6 +139,7 @@
         <option value="$PROJECT_DIR$/src/main/javamusic/ServiceHandler.java" />
         <option value="$PROJECT_DIR$/src/test/javamusic/BitcoinCentralTest.java" />
         <option value="$PROJECT_DIR$/src/main/javamusic/BitcoinCentral.java" />
+        <option value="$PROJECT_DIR$/src/main/javamusic/xChangeContainer.java" />
       </list>
     </option>
   </component>
@@ -717,25 +718,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/javamusic/xChangeContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/javamusic/HashMapExampleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/javamusic/BitcoinCentralTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="53" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -751,12 +736,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/javamusic/BitcoinCentral.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="558" selection-end="558" vertical-scroll-proportion="0.71428573" vertical-offset="0" max-vertical-offset="1230">
+        <state line="20" column="0" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1230">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1858#1859#0" expanded="true" />
             <element signature="e#1892#1893#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/javamusic/BitcoinCentralTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/javamusic/xChangeContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="2" selection-start="223" selection-end="223" vertical-scroll-proportion="0.42207792" vertical-offset="0" max-vertical-offset="462">
+          <folding />
         </state>
       </provider>
     </entry>

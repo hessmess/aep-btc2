@@ -6,8 +6,8 @@ import java.util.List;
  * Created by jhess on 23.04.14.
  */
 public class xChangeContainer {
-    public void xChangeContainer(List<Double> bids, List<Double> asks){
-
+    public void xChangeContainer(){
+        System.out.println("This class is still unused.");
     }
 }
 
