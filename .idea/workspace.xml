@@ -64,23 +64,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BitcoinCentral.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BitcoinCentral.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/javamusic/BitcoinCentral.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="503" selection-end="503" vertical-scroll-proportion="0.032467533" vertical-offset="285" max-vertical-offset="1230">
+            <state line="25" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0" vertical-offset="63" max-vertical-offset="705">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1858#1859#0" expanded="true" />
-                <element signature="e#1892#1893#0" expanded="true" />
+                <element signature="e#658#659#0" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HashMapExampleTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/javamusic/HashMapExampleTest.java">
+      <file leaf-file-name="JsonLoader.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/javamusic/JsonLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+            <state line="13" column="23" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="840">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,22 +88,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HashMapExample.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/javamusic/HashMapExample.java">
+      <file leaf-file-name="JsonLoaderTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/javamusic/JsonLoaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="21" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-              <folding />
+            <state line="18" column="5" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BitcoinCentralTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BitcoinCentralTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/javamusic/BitcoinCentralTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="6" column="50" selection-start="123" selection-end="123" vertical-scroll-proportion="0.19480519" vertical-offset="0" max-vertical-offset="645">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -129,8 +129,10 @@
         <option value="$PROJECT_DIR$/src/main/javamusic/JSONObject.java" />
         <option value="$PROJECT_DIR$/src/main/javamusic/ServiceHandler.java" />
         <option value="$PROJECT_DIR$/src/test/javamusic/BitcoinCentralTest.java" />
-        <option value="$PROJECT_DIR$/src/main/javamusic/BitcoinCentral.java" />
         <option value="$PROJECT_DIR$/src/main/javamusic/xChangeContainer.java" />
+        <option value="$PROJECT_DIR$/src/main/javamusic/JsonLoader.java" />
+        <option value="$PROJECT_DIR$/src/test/javamusic/JsonLoaderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/javamusic/BitcoinCentral.java" />
       </list>
     </option>
   </component>
@@ -268,28 +270,6 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="MailgunTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="aep-btc2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="javamusic" />
-      <option name="MAIN_CLASS_NAME" value="javamusic.MailgunTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="HashMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javamusic.HashMapExample" />
       <option name="VM_PARAMETERS" />
@@ -346,6 +326,28 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="aep-btc2" />
       <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="JsonLoaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aep-btc2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="javamusic" />
+      <option name="MAIN_CLASS_NAME" value="javamusic.JsonLoaderTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -479,18 +481,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.BitcoinCentralTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MailgunTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.HashMapExample" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.HashMapExampleTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.BitcoinCentral" />
+      <item index="1" class="java.lang.String" itemvalue="Application.HashMapExample" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.HashMapExampleTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.BitcoinCentral" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.JsonLoaderTest" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.BitcoinCentralTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.BitcoinCentral" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.HashMapExampleTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.HashMapExample" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MailgunTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.JsonLoaderTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.BitcoinCentral" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.HashMapExampleTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.HashMapExample" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -526,7 +528,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="799" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -579,8 +581,8 @@
         <state line="34" column="0" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1858#1859#0" expanded="true" />
-            <element signature="e#1892#1893#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -604,9 +606,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/javamusic/BitcoinCentralTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="411" selection-end="604" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="615">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -615,8 +615,8 @@
         <state line="17" column="0" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="645">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1858#1859#0" expanded="true" />
-            <element signature="e#1892#1893#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -702,6 +702,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/javamusic/HashMapExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="21" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/javamusic/HashMapExampleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
@@ -711,30 +718,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/javamusic/HashMapExample.java">
+    <entry file="file://$PROJECT_DIR$/src/test/javamusic/JsonLoaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="21" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <folding />
+        <state line="18" column="5" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/javamusic/JsonLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="23" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="840">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/javamusic/BitcoinCentral.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="503" selection-end="503" vertical-scroll-proportion="0.032467533" vertical-offset="285" max-vertical-offset="1230">
+        <state line="25" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0" vertical-offset="63" max-vertical-offset="705">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1858#1859#0" expanded="true" />
-            <element signature="e#1892#1893#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/javamusic/BitcoinCentralTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="6" column="50" selection-start="123" selection-end="123" vertical-scroll-proportion="0.19480519" vertical-offset="0" max-vertical-offset="645">
+          <folding />
         </state>
       </provider>
     </entry>
