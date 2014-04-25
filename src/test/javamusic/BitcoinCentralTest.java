@@ -5,6 +5,7 @@ import org.junit.Test;
 import java.io.IOException;
 
 import static junit.framework.Assert.assertEquals;
+import static junit.framework.Assert.assertFalse;
 import static junit.framework.Assert.assertTrue;
 
 /**
@@ -19,9 +20,17 @@ public class BitcoinCentralTest {
     }
 
     @Test
-    public void tradingFeeShouldBeZeroPointFiveNine(){
+    public void tradingFeeShouldBeZeroPointFiveNine() throws IOException {
         BitcoinCentral bitcoinCentral = new BitcoinCentral();
         assertEquals(0.59, bitcoinCentral.getTrading_fee());
+    }
+
+
+    @Test
+    public void ShouldNotRetrieveAnythingAndRespondFalse() throws IOException {
+        JsonDummy bitcoincentral = new JsonDummy("https://blakjhasdhkjasd.com");
+        assertFalse(bitcoincentral.refresh_orderbook());
+
     }
 }
 

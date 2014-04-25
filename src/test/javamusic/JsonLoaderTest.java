@@ -15,14 +15,8 @@ public class JsonLoaderTest {
     @Test
     public void ShouldSuccessfullyRetrieveOrderbookFromBC() throws IOException {
         JsonLoader bitcoincentral = new JsonLoader("https://bitcoin-central.net/api/data/eur/depth");
-        assertTrue(bitcoincentral.refresh());
+        assertTrue(bitcoincentral.refresh().contains("bids"));
     }
 
-    @Test
-    public void ShouldNotRetrieveAnythingAndRespondFalse() throws IOException {
-        JsonLoader bitcoincentral = new JsonLoader("https://blakjhasdhkjasd.com");
-        assertFalse(bitcoincentral.refresh());
-
-    }
 
 }

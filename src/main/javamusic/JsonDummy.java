@@ -10,13 +10,12 @@ import javax.net.ssl.HttpsURLConnection;
 /**
  * Created by jhess on 22.04.14.
  */
-public class BitcoinCentral {
+public class JsonDummy {
 
-    private double trading_fee = 0.59;
-    private String url = "https://bitcoin-central.net/api/data/eur/depth";
+    private String url = "https://lkjdfgjadgkljhsadhlf.de";
 
-    public BitcoinCentral() throws IOException {
-
+    public JsonDummy(String url) throws IOException {
+        this.url = url;
     }
 
     public boolean refresh_orderbook() throws IOException {
@@ -29,10 +28,6 @@ public class BitcoinCentral {
             System.out.println("Exception: " + error);
             return false;
         }
-    }
-
-    public double getTrading_fee(){
-        return trading_fee;
     }
 }
 
