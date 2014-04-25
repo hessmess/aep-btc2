@@ -5,12 +5,12 @@ import java.io.IOException;
 /**
  * Created by jhess on 22.04.14.
  */
-public class BitcoinCentral {
+public class Bitstamp {
 
-    private double trading_fee = 0.59;
-    private String url = "https://bitcoin-central.net/api/data/eur/depth";
+    private double trading_fee = 0.32;
+    private String url = "https://www.bitstamp.net/api/order_book/";
 
-    public BitcoinCentral() throws IOException {
+    public Bitstamp() throws IOException {
 
     }
 

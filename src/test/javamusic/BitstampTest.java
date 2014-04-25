@@ -10,30 +10,18 @@ import static junit.framework.Assert.assertTrue;
 /**
  * Created by jhess on 22.04.14.
  */
-public class BitcoinCentralTest {
+public class BitstampTest {
 
     @Test
     public void shouldSuccessfullyRetrieveOrderbook() throws IOException {
-        BitcoinCentral bitcoinCentral = new BitcoinCentral();
-        assertTrue(bitcoinCentral.refresh_orderbook());
+        Bitstamp bitstamp = new Bitstamp();
+        assertTrue(bitstamp.refresh_orderbook());
     }
 
     @Test
     public void tradingFeeShouldBeZeroPointFiveNine() throws IOException {
-        BitcoinCentral bitcoinCentral = new BitcoinCentral();
-        assertEquals(0.59, bitcoinCentral.getTrading_fee());
+        Bitstamp bitstamp = new Bitstamp();
+        assertEquals(0.32, bitstamp.getTrading_fee());
     }
 
 }
-
-/*
-oderbook: refresh
-get bids
-get asks
-get bids eur
-get asks eur
-get comission rate
-
-btc_above
-btc below
-*/

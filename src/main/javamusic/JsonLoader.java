@@ -42,7 +42,7 @@ public class JsonLoader {
         }
 
         in.close();
-
+        System.out.println(response.toString());
         return response.toString();
 
     }
