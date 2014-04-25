@@ -18,6 +18,7 @@ public class JsonLoader {
     }
 
     public boolean refresh() throws IOException {
+        try{
         URL obj = new URL(this.url);
         HttpsURLConnection con = (HttpsURLConnection) obj.openConnection();
 
@@ -46,5 +47,9 @@ public class JsonLoader {
         System.out.println(orderbook);
 
         return orderbook.contains("bids");
+        }
+        catch (Exception error){
+            return false;
+        }
     }
 }

@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import java.io.IOException;
 
-import static junit.framework.Assert.assertEquals;
+import static junit.framework.Assert.assertFalse;
 import static junit.framework.Assert.assertTrue;
 
 /**
@@ -16,6 +16,13 @@ public class JsonLoaderTest {
     public void ShouldSuccessfullyRetrieveOrderbookFromBC() throws IOException {
         JsonLoader bitcoincentral = new JsonLoader("https://bitcoin-central.net/api/data/eur/depth");
         assertTrue(bitcoincentral.refresh());
+    }
+
+    @Test
+    public void ShouldNotRetrieveAnythingAndRespondFalse() throws IOException {
+        JsonLoader bitcoincentral = new JsonLoader("https://blakjhasdhkjasd.com");
+        assertFalse(bitcoincentral.refresh());
+
     }
 
 }

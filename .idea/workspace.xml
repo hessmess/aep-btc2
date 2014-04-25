@@ -67,7 +67,7 @@
       <file leaf-file-name="BitcoinCentral.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/javamusic/BitcoinCentral.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0" vertical-offset="63" max-vertical-offset="705">
+            <state line="15" column="72" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#658#659#0" expanded="true" />
@@ -80,7 +80,7 @@
       <file leaf-file-name="JsonLoader.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/javamusic/JsonLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="23" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="840">
+            <state line="51" column="25" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,10 +88,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsonLoaderTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="JsonLoaderTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/javamusic/JsonLoaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="5" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+            <state line="25" column="5" selection-start="717" selection-end="717" vertical-scroll-proportion="0.8116883" vertical-offset="0" max-vertical-offset="495">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,11 +99,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BitcoinCentralTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BitcoinCentralTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/javamusic/BitcoinCentralTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="50" selection-start="123" selection-end="123" vertical-scroll-proportion="0.19480519" vertical-offset="0" max-vertical-offset="645">
-              <folding />
+            <state line="17" column="19" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,9 +132,9 @@
         <option value="$PROJECT_DIR$/src/main/javamusic/ServiceHandler.java" />
         <option value="$PROJECT_DIR$/src/test/javamusic/BitcoinCentralTest.java" />
         <option value="$PROJECT_DIR$/src/main/javamusic/xChangeContainer.java" />
-        <option value="$PROJECT_DIR$/src/main/javamusic/JsonLoader.java" />
-        <option value="$PROJECT_DIR$/src/test/javamusic/JsonLoaderTest.java" />
         <option value="$PROJECT_DIR$/src/main/javamusic/BitcoinCentral.java" />
+        <option value="$PROJECT_DIR$/src/test/javamusic/JsonLoaderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/javamusic/JsonLoader.java" />
       </list>
     </option>
   </component>
@@ -247,7 +249,7 @@
       <recent name="javamusic" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BitcoinCentralTest">
+  <component name="RunManager" selected="JUnit.JsonLoaderTest">
     <configuration default="false" name="BitcoinCentralTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aep-btc2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -488,8 +490,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BitcoinCentralTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.JsonLoaderTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.JsonLoaderTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BitcoinCentralTest" />
         <item index="2" class="java.lang.String" itemvalue="Application.BitcoinCentral" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.HashMapExampleTest" />
         <item index="4" class="java.lang.String" itemvalue="Application.HashMapExample" />
@@ -606,7 +608,9 @@
     <entry file="file://$PROJECT_DIR$/src/test/javamusic/BitcoinCentralTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="411" selection-end="604" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="615">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -718,27 +722,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/javamusic/JsonLoaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="5" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/javamusic/JsonLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="23" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="840">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/javamusic/BitcoinCentral.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0" vertical-offset="63" max-vertical-offset="705">
+        <state line="15" column="72" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#658#659#0" expanded="true" />
@@ -749,8 +735,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/javamusic/BitcoinCentralTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="50" selection-start="123" selection-end="123" vertical-scroll-proportion="0.19480519" vertical-offset="0" max-vertical-offset="645">
-          <folding />
+        <state line="17" column="19" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/javamusic/JsonLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="25" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/javamusic/JsonLoaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="5" selection-start="717" selection-end="717" vertical-scroll-proportion="0.8116883" vertical-offset="0" max-vertical-offset="495">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
